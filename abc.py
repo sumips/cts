@@ -1,0 +1,5 @@
+f=open("tiger.txt",'w')
+f.write("i love india \n")
+f.write("welcome to india")
+f=open("tiger.txt",'r')
+print(f.read())
